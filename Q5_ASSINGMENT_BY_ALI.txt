@@ -1,0 +1,24 @@
+// Q4EVEN ODD.cpp :
+// ⦁	Write a program that input a number from a keyboard and then print the message
+//“It is an Odd number” if it is an odd number. Else print a message “It is an Even number”.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    //CODE BY MR.ALI
+    int a, b;
+    cout << "Please enter the Number\n";
+    cin >> a;
+    //agr ksi b number ko 2 sy divide kia jay too agr uss ka answer 0 aa jay too woo even hota hy 
+    //agr ans 0 na hoo to woo odd hoo jay ga
+    //iss main b same ya he concept use kia agr ksi koo ya ksi or logic sy ata hy then guide me
+    if (a % 2 != 0)
+        cout << "It is an Odd number"<<endl;
+    else
+        cout << "It is an Even number"<<endl;
+    return 0;
+
+}
+
+
