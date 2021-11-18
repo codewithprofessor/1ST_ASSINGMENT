@@ -1,0 +1,20 @@
+// 2question.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//⦁	Write a program that accept age of a student in years and compute it in months.
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    //code by ALI
+    //ISS MIAN FLOAT USE KIA HY Q K USER KI AGE 12.5 B HOO SKTI HY WRNA INT B USE HOO SKTA HY
+    //OR YA SIMPLE SA HY AP JB BNAO TOO ISS MAIN VARIALE CHANGE KR LIA KRO TA K SIR KOO SHAK NA HOO
+    // K YA SB COPY KRTY HAN
+    float a, b;
+    cout << "Please enter your age \n";
+    cin >> a;
+    b = a * 12;
+    cout << "Your age in monthes is \n" << b << endl;
+    return 0;
+}
+
