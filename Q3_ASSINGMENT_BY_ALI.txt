@@ -1,0 +1,46 @@
+// Q3.cpp : 
+//⦁	Write a program that take two values from user and perform the arithmetic operations by using all arithmetic operators. Also print the result on screen.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//code  by ALI
+	//is main float b use kr skty han fr % ya solve ni hota
+	//iss main ham data type change kr k iss ko % k lia b bna skty han 
+	//lykn abi tak hamm ny wo phra ni iss lia main use srf int he kr rha
+	int a, b;
+	char dy;
+	cout << "Please enter the 2 values\n";
+	cin >> a >> b;
+	cout << "Enter the operator (*/+-%)\n";
+	cin >> dy;
+	switch (dy)
+	{
+	case'+':
+		cout << "Sum =  " << a + b << endl;
+		break;
+	case'-':
+		cout << "Difference =  " << a - b << endl;
+		break;
+	case'*':
+		cout << "Multiplication =  " << a + b << endl;
+		break;
+	case'/':
+		if (b != 0)
+			cout << "Division =  " << a / b << endl;
+		else
+			cout << "ERROR";
+		break;
+	case'%':
+		cout << "Reminder =  " << a % b << endl;
+		break;
+	default:
+		cout << "PLEASE ENTER THE VALID NUMBER OR OPERATOR\n";
+
+
+	}
+	return 0;
+}
+
