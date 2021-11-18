@@ -1,0 +1,30 @@
+// Q6BYALI.cpp : 
+// ⦁	Write a program to find out the grade of a student based on the marks obtained in three subjects. The grade is calculated as:
+//⦁	If average is 80 or greater than 80, grade is ‘A’.
+//⦁	If average is less than 80 and greater then 50, grade is ‘B’.
+//⦁	If average is less than 50 and greater then 33, grade is ‘C’.
+//⦁	If average is less than 33, grade is ‘F’.
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    //CODE BY Mr. ALI
+    float a, b, c, avg;
+    cout << "Please enter the obtained marks of three subjects" << endl;
+    cin >> a >> b >> c;
+    avg = (a + b + c) / 3;
+    //cout << avg<< endl;
+    if (avg >= 80)
+        cout << "\nGrade is A" << endl;
+    else
+        if (avg > 50)
+            cout << "\nGrade is B" << endl;
+        else
+            if (avg > 33)
+                cout << "\nGrade is C" << endl;
+            else
+                cout << "\nGrade is F";
+    return 0;
+}
