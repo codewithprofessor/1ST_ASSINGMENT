@@ -1,0 +1,42 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	//This code is written by ALI 
+	//HHA
+	string a, b, c, d, e, f, g, h, i, j, k;
+	cout << "Please enter your Information \n";
+	cout << "First Name	";
+	cin >> a;
+	cout << "Second Name	";
+	cin >> b;
+	//cout << a << " " << b << endl;
+	
+	cout << "\nFirst Name	";
+	cin >> c;
+	cout << "Second Name	";
+	cin >> d;
+	//cout <<"\n\n\n" << a << " " << b << endl;
+	//cout << c << " " << d << endl;
+	cout << "\nyour Gender	";
+	cin >> f;
+	cout << "\nyour Adress	";
+	cin >> g;
+	cout << "\nyour Class	";
+	cin >> e;
+	cout << "\nyour UNI	";
+	cin >> h >> i >> j >> k;
+	//IS MAIN ADRASS KI JGAH PAR AP 1 HE WORD LKH SKTY HO
+	//OR UNI NAME MAIN 4 WORDS LKH SKTY HO YA FIX HY MRY PROGRAMM MAIN
+	cout << "\n\n\n" << a << " " << b << endl;
+	cout << c << " " << d << endl;
+	cout << f << endl;
+	cout << g << endl;
+	cout << e << endl;
+	cout << h << " " << i << " " << j << " " << k << endl;
+   
+	return 0;
+}
+
