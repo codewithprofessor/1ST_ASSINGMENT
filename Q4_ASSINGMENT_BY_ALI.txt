@@ -1,0 +1,30 @@
+// q4.cpp : 
+// ⦁	Write a program to calculate the electricity bill. The rates of electricity per unit are as follow:
+//⦁	If the units consumed are equal or less than 300, then the cost is Rs. 3 / -per unit.
+//⦁	If unit consumed are more than 300, then the cost is Rs. 3.5 / -per unit and a surcharge of 5 % of bill is added.
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    //CODE BY MR. ALI
+    //ISS MAIN FLOAT USE KRNA HY 
+    float a, b;
+    cout << "Please etner the units which you can consumed \n";
+    cin >> a;
+    if (a <= 300)
+        //IDER MAIN NY a MAIN HE a KI NEW VALUE STORE KR LI .1
+        a = a * 3;
+    else
+        if (a > 300)
+            a = a * 3.5;
+    //MAINN NY 0.05 SY ISS LIA MULTIPLY KIA Q K ISS SY BILL KA 5 PERCENT NIKAL AY GA
+    b = a * 0.05;
+    b = b + a;
+    cout << "Your Bill is    " << b << endl;
+    return 0;
+
+    
+}
+//.1 YA NEW VARIABLE BNA K B VALUE STORE KI JA SKTI THI
