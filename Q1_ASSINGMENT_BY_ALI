@@ -1,0 +1,29 @@
+#include<iostream>
+#include<cstdlib>
+using namespace std;
+int main()
+{
+    //CODE BY ALI
+    //ISS PROGRAMM MAIN ABS SY NEGITIVE VALUE POSITIVE HO JATI HY
+    //YA 1 FUNCTION HOTA HY JOO K CSTDLIB SY ADDD KIA JATA HY JHSY STRING THI
+    int a,b;
+    cout<<"Please enter the the values \n";
+    cin>>a>>b;
+    cout <<"2(A+B) = "<<(a+b)*2<<endl;
+    cout <<"7A+2 = "<<(7*a)+2<<endl;
+    cout <<"|A| = "<<abs(a)<<endl;
+    /*
+    The abs() function in C++ returns the absolute value of an integer number.
+     This function is defined in the cstdlib header file.
+     The abs() function takes the following parameters:
+
+    num: An integral value whose absolute value is returned. The number can be:
+        int
+        long
+        long long
+        */
+
+
+
+    return 0;
+}
